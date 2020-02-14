@@ -1,0 +1,494 @@
+/* grid-template-columns: repeat(7,1fr); */
+
+.logo{
+    position: absolute;
+    margin-left:3vw;
+    margin-top:3vw;
+}
+.months{
+    position: absolute;
+    margin-left:46vw;
+    margin-right:20vw;
+    margin-top:11vw;
+    margin-bottom: 20vw;
+}
+
+#m12{
+    position: absolute;
+    margin-left:-17.5vw;
+    margin-top:1.5vw;
+}
+
+#m11{
+    position: absolute;
+    margin-left:-15vw;
+    margin-top:1.5vw; 
+}
+
+
+#m10{
+    position: absolute;
+    margin-left:-13vw;
+    margin-top:1.5vw; 
+}
+
+#m9{
+    position: absolute;
+    margin-left:-11.5vw;
+    margin-top:2vw; 
+}
+
+#m8{
+    position: absolute;
+    margin-left:-10.5vw;
+    margin-top:2.5vw; 
+}
+
+#m7{
+    position: absolute;
+    margin-left:-9vw;
+    margin-top:3vw; 
+}
+
+#m6{
+    position: absolute;
+    margin-left:-7.5vw;
+    margin-top:3.5vw; 
+}
+
+#m5{
+    position: absolute;
+    margin-left:-6vw;
+    margin-top:4vw; 
+}
+
+#m4{
+    position: absolute;
+    margin-left:-4.5vw;
+    margin-top:4.5vw; 
+}
+
+#m3{
+    position: absolute;
+    margin-left:-3vw;
+    margin-top:5vw; 
+}
+
+#m2{
+    position: absolute;
+    margin-left:-1.5vw;
+    margin-top:5.2vw; 
+}
+
+#m1{
+    position: absolute;
+    margin-left:1vw;
+    margin-top:6vw; 
+}
+
+
+#shadow{
+    position: absolute;
+    margin-left:-25vw;
+    margin-top:30vw; 
+}
+
+
+#t12 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m12:hover{
+        cursor: pointer;
+       }
+       
+       #m12:hover #t12{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+#t11 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m11:hover{
+        cursor: pointer;
+       }
+       
+       #m11:hover #t11{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+
+#t10 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m10:hover{
+        cursor: pointer;
+       }
+       
+       #m10:hover #t10{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+#t9 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m9:hover{
+        cursor: pointer;
+       }
+       
+       #m9:hover #t9{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+
+#t8 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m8:hover{
+        cursor: pointer;
+       }
+       
+       #m8:hover #t8{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+
+#t7 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m7:hover{
+        cursor: pointer;
+       }
+       
+       #m7:hover #t7{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+#t6 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m6:hover{
+        cursor: pointer;
+       }
+       
+       #m6:hover #t6{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+#t5 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m5:hover{
+        cursor: pointer;
+       }
+       
+       #m5:hover #t5{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+
+
+#t4 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m4:hover{
+        cursor: pointer;
+       }
+       
+       #m4:hover #t4{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+#t3 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m3:hover{
+        cursor: pointer;
+       }
+       
+       #m3:hover #t3{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+#t2 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m2:hover{
+        cursor: pointer;
+       }
+       
+       #m2:hover #t2{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+#t1 {
+    font-size: 1.5vw;
+    font-family: sans-serif;
+    font-weight: 900;
+    position:absolute;
+    top:-5vw;
+    left:0;
+    color:black;
+    text-align:center;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+    }
+
+
+    #m1:hover{
+        cursor: pointer;
+       }
+       
+       #m1:hover #t1{
+        width: 10vw;
+        margin-top: 3.3vw;
+        margin-left: 4vw;
+        visibility: visible;
+        opacity: 0.7; 
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#m1:hover{ position: absolute; 
+    top: -10vw;}
+#m2:hover{ position: absolute; 
+    top: -10vw;}
+#m3:hover{ position: absolute; 
+    top: -10vw;}
+
+    #m4:hover{ position: absolute; 
+        top: -10vw;}
+    #m5:hover{ position: absolute; 
+        top: -10vw;}
+    #m6:hover{ position: absolute; 
+        top: -10vw;}
+
+
+#m7:hover{ position: absolute; 
+    top: -10vw;}
+#m8:hover{ position: absolute; 
+    top: -10vw;}
+#m9:hover{ position: absolute; 
+    top: -10vw;}
+
+
+    #m10:hover{ position: absolute; 
+        top: -10vw;}
+    #m11:hover{ position: absolute; 
+        top: -10vw;}
+    #m12:hover{ position: absolute; 
+        top: -10vw;}
+    
+
+    
+
+

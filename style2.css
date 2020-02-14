@@ -1,0 +1,76 @@
+html{
+    font-family: franklin-gothic-urw, sans-serif;
+    font-style:normal;
+}
+
+.logo{
+    position: absolute;
+    margin-left:3vw;
+    margin-top:0.4vw;
+}
+
+.calendar{
+    margin-top: 3vw;
+    margin-left:25vw;
+    margin-right: 21vw;
+}
+
+.month{
+    font-size: 4.5vw;
+    font-weight: 700;
+    margin-bottom: 1vw;
+}
+.week {
+    display:grid;
+    font-weight: 700;
+    font-size:1.3vw;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    /* text-align: center; */
+    grid-gap: 10vw 4vw;
+    margin-bottom: 1vw;
+  }
+
+.week,
+.date{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.date{
+    grid-row-gap: 7vw;
+    grid-column-gap: 7.3vw;
+    font-size:0.6vw;
+    font-weight: 300;
+    position: absolute;
+}
+.date div:only-child{
+    position: absolute;
+}
+
+.date img{
+    z-index: -1;
+    margin-left: -2vw;
+    width: 5.1vw;
+    position: absolute;
+}
+
+
+
+#bg{
+    margin-left:29vw;
+    margin-top:4vw;
+    position: absolute;
+    z-index: -2;
+}
+
+
+
+
+.date div:first-child {
+    grid-column: 7;
+  }
+
+a{  position: absolute;
+    z-index:99999;
+}
+
