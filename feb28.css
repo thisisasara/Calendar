@@ -1,0 +1,57 @@
+html{
+    font-family: franklin-gothic-urw, sans-serif;
+    font-style:normal;
+}
+.logo{
+    position: absolute;
+    margin-left:3vw;
+    margin-top:3vw;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 3.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.content{
+    text-decoration: none;
+    /* margin-left:20vw;
+    margin-right:5vw; */
+    margin-left:20vw;
+    margin-top:1.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2{
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 2.5vw;
+    margin-top:9vw;
+}
+
+embed{
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20vw;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+c{
+    color:blue;
+    font-weight: 500;
+}
+
