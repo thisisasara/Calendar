@@ -1,0 +1,32 @@
+html{
+    font-family: franklin-gothic-urw, sans-serif;
+    font-style:normal;
+}
+.logo{
+    position: absolute;
+    margin-left:3vw;
+    margin-top:3vw;
+}
+
+/* 
+h1{
+    font-weight: 900;
+    font-size: 3.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+
+} */
+
+.content{
+    text-decoration: none;
+    margin-right:30vw;
+    margin-left:20vw;
+    position: absolute;
+    margin-top:5vw;
+    margin-bottom: 10vw;
+    line-height:5vw;
+}
+
+
+
