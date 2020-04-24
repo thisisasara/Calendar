@@ -1,0 +1,162 @@
+html{
+    font-family: franklin-gothic-urw, sans-serif;
+    font-style:normal;
+}
+.logo{
+    position: absolute;
+    margin-left:3vw;
+    margin-top:3vw;
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 3.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    width:900px;
+
+}
+
+.content{
+    text-decoration: none;
+    /* margin-left:20vw;
+    margin-right:5vw; */
+    margin-left:20vw;
+    margin-top:1.5vw;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2{
+    text-decoration: none;
+    font-size: 1.3vw;
+    font-weight: 500;
+    line-height: 2.5vw;
+    margin-top:9vw;
+}
+
+embed{
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20vw;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+c{
+    color:blue;
+    font-weight: 500;
+}
+
+
+
+.face{width:500px;
+height:500px;
+border-radius:50%;
+background-color: blue;
+padding:1px;
+transition: all 0.5s;
+margin-top:10vw;
+}
+
+.face .ui-selecting { background: blue; }
+.face .ui-selected { background: pink; color: white; }
+
+
+.eyes{width:500px;
+margin:105px auto 0 auto;
+transition: all 0.5s
+}
+
+.eyes{
+	margin-left:70px;
+}
+
+.eye{
+	width:130px;
+	height:130px;
+	background-color: white;
+	border-radius:50%;
+	display: inline-block;
+}
+
+#left_eye{
+	margin-right: 30px;
+}
+
+.pupil{
+	width:75px;
+	height:75px;
+	background-color:black ;
+	border-radius:50%;
+}
+
+.pupil{
+	margin-left:30px;
+	margin-top: 30px;
+	transition: all 0.5s;
+
+}
+
+.eye:hover {
+	width:180px;
+	height:180px;
+  	position: relative;
+  	background-color: red;
+}
+
+.pupil:hover{
+	width:65px;
+	height:65px;
+	background-color:black ;
+	border-radius:50%;
+}
+
+.nose{
+	width: 0; 
+	height: 0; 
+  border-bottom: 120px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+	margin-left:160px;
+	margin-top: -20px;
+}
+
+.nose:hover{
+    width: 0; 
+	height: 0; 
+  border-bottom: 190px solid yellow;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	
+	margin-left:130px;
+	margin-top: -20px;
+
+
+}
+
+.mouth{
+	width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-color: red;
+    margin:20px 0 0 200px;
+}
+
+.mouth:hover{
+	width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-color: yellow;
+    margin:15px 0 0 150px;
+    transition: all 0.5s
+}
